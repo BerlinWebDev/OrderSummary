@@ -1,0 +1,101 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+}
+/* Order Card */
+.ordercard {
+  border-radius: 20px;
+  height: 618px;
+  width: 315px;
+  background-color: white;
+  margin: auto;
+  margin-top: 64px;
+}
+
+.ordercard img {
+  max-width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.title {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.description {
+  width: 260px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Annual Plan */
+.annual,
+.price {
+  font-size: 13px;
+}
+.annual {
+  font-weight: 900;
+}
+
+.annualplan {
+  font-size: 20px;
+}
+
+.plan {
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 255px;
+  background-color: hsl(225, 100%, 98%);
+  grid-template-columns: 92px 92px 92px;
+  justify-items: center;
+}
+
+.plan img {
+  display: inline-block;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.payment {
+  display: grid;
+  align-items: center;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin: 0 auto;
+  width: 255px;
+  background-color: hsl(245, 75%, 52%);
+}
+.btn_payment {
+  text-align: center;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
