@@ -22,8 +22,8 @@ body {
 /* Order Card */
 .ordercard {
   border-radius: 20px;
-  height: 575px;
-  width: 315px;
+  height: 600px;
+  width: 360px;
   background-color: white;
   margin: auto;
   margin-top: 64px;
@@ -105,7 +105,14 @@ body {
   text-decoration: underline;
 }
 
+.payment:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .payment {
+  text-align: center;
+  color: white;
   margin-top: 20px;
   display: grid;
   align-items: center;
@@ -116,9 +123,15 @@ body {
   width: 255px;
   background-color: hsl(245, 75%, 52%);
 }
-.btn_payment {
-  text-align: center;
-  color: white;
+.change:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3829e0;
+}
+
+.cancel:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .attribution {
