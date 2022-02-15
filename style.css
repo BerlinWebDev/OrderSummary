@@ -1,12 +1,28 @@
 body {
-  background-color: hsl(225, 100%, 94%);
   font-family: "Red Hat Display", sans-serif;
   margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-image: url("/images/pattern-background-mobile.svg");
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .ordercard {
+    width: 361px;
+  }
 }
 /* Order Card */
 .ordercard {
   border-radius: 20px;
-  height: 618px;
+  height: 575px;
   width: 315px;
   background-color: white;
   margin: auto;
@@ -25,7 +41,13 @@ body {
   font-weight: 700;
 }
 
+.grid_grap {
+  row-gap: 30px;
+  display: grid;
+}
+
 .description {
+  text-align: center;
   width: 260px;
   margin: 0 auto;
   font-size: 16px;
@@ -69,6 +91,12 @@ body {
 .price {
   color: hsl(224, 23%, 55%);
 }
+.cancel {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
 
 .change {
   font-size: 12px;
@@ -78,6 +106,7 @@ body {
 }
 
 .payment {
+  margin-top: 20px;
   display: grid;
   align-items: center;
   height: 50px;
